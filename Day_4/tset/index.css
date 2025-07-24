@@ -1,0 +1,53 @@
+
+  
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+  
+
+  .saibarleft {
+    padding: 10px;
+    width: 25%;
+    background-color: blue;
+  }
+  
+  
+  .container_center {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  .header {
+    flex: 1;
+  }
+  .contex {
+   margin-top: 10px;
+    flex: 1;
+    display: flex;
+  }
+  .contex_1,
+  .contex_2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .item {
+    margin: 5px;
+    flex: 1;
+  }
+  .saibarright {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+  }
+  .headerright {
+    margin-bottom: 10px;
+    flex: 1;
+  }
+  .contexright {
+    flex: 2;
+  }
+  

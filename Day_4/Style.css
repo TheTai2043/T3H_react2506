@@ -1,0 +1,89 @@
+
+
+.container{
+ max-width: 100%;
+
+}
+.auth{
+    margin-right: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.auth a{
+    padding: 20px;
+}
+.header{
+  
+    background: blue;
+    display: flex;
+    justify-content: space-between;
+}
+.header h1{
+    margin-left: 30px;
+}
+.banner{
+    width: 100%;
+    max-width: 100%;
+    height: 80vh;
+    background: rgb(140, 217, 240);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.banner a{
+    padding: 20px;
+}
+.image{
+    padding: 40px;
+    margin-right: 30px;
+    display: flex;
+    
+    display: block;
+}
+.imgae img {
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+}
+.content{
+padding: 30px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+.tags1{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.tags2{
+    display: flex;
+    flex-wrap: nowrap; 
+    justify-content: center;
+    align-items: center;
+}
+.tag{
+    display: flex;
+align-items:center;
+justify-content: center;
+width: 300px;
+height: 300px;
+}
+.foort {
+    display: flex;
+    height: 100px;
+    background-color: #d7eaff;
+  }
+
+  .foortletf{
+    width: 80px;
+    background-color: #4d90e6;
+  }
+
+  .foortcenter {
+    flex: 1;
+    background-color: #d7eaff;
+  }
